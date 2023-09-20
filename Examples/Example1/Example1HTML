@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>I can see this</h1>
-
-<h2>Does this gets pushed</h2>
-
-<h3>!!!!!!!!!!!!!!!!!</h3>
-
+    
 <p>Demonstrate fadeOut() with different parameters.</p>
 
 <button>Click to fade out boxes</button><br><br>
