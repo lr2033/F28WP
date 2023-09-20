@@ -1,5 +1,10 @@
+p {
+    color: green;
+    font-weight: bold;
+}
+
 #div3{
-    width: 100px;
+    width: 0px;
     height: 100px;
     background: #ffb;
     padding: 10px;
