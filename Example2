@@ -4,6 +4,17 @@
         <title>Example2</title>
     </head>
     <body>
-        <h1>This Example has been made from scratch</h1>>
+        <h1>This Example has been made from scratch</h1>
+        
+        <div>
+            <h4>An ordered list</h4>
+            <ol>
+                <il>Item 1</il>
+                <il>Item 2</il>
+                <il>Item 3</il>
+                <il>Item 4</il>
+                <il>Item 5</il>
+        </div>
+        
     </body>
 </html>
