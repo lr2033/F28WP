@@ -1,0 +1,15 @@
+h2 {
+    color: blueviolet;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.dividerLine {
+    border: 1px solid blueviolet;
+}
+
+.closingP{
+    color: blueviolet;
+    font-weight:bold;
+    font-size: smaller;
+}
