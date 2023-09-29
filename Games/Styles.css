@@ -1,15 +1,72 @@
 h2 {
+    float: left;
     color: blueviolet;
     font-weight: bold;
     font-family: sans-serif;
+    text-decoration: underline;
 }
 
-.dividerLine {
-    border: 1px solid blueviolet;
+hr {
+    border: 2px solid blueviolet;
 }
 
-.closingP{
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.footer{
     color: blueviolet;
     font-weight:bold;
-    font-size: smaller;
+    font-size:medium;
+    text-align: center;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 800px;
+}
+
+.gameLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+    
+}
+
+#question {
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+#score {
+    margin-left:50%;
+    text-align: center;
+}
+
+.answerButton {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 100px;
+    width: 400px;
+}
+
+#startButton {
+    margin-left:70%;
+    height: 50px;
+    width: 150px;
 }
