@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Styles.css">
         <title>Example2</title>
     </head>
     <body>
         <h1>This Example has been made from scratch</h1>
         
         <div>
-            <h4>An ordered list</h4>
+            <h4 id="ListHeader">An ordered list:</h4>
             <ol>
-                <il>Item 1</il>
-                <il>Item 2</il>
-                <il>Item 3</il>
-                <il>Item 4</il>
-                <il>Item 5</il>
+                <li id="Item1">red</li>
+                <li id="Item2">blue</li>
+                <li id="Item3">yellow</li>
+                <li id="Item4">green</li>
+                <li id="Item5">orange</li>
+            </ol>
         </div>
         
+        <button type="button" onclick="changeColour()">Change Colour</button>
+
+        <script>
+            function myFunction() {
+              document.getElementById("Item1").style.color = "orange";
+              document.getElementById("Item2").style.color = "red";
+              document.getElementById("Item3").style.color = "blue";
+              document.getElementById("Item4").style.color = "yellow";
+              document.getElementById("Item5").style.color = "green";
+            }
+            </script>
+            
+
     </body>
 </html>

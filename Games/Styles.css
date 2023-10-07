@@ -63,6 +63,7 @@ hr {
     margin-right: auto;
     height: 100px;
     width: 400px;
+    background-color: white;
 }
 
 #startButton {

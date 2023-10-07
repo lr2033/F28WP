@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+div{
+    background-color: black;
+    height: 200px;
+    width: 1000px;
+}
+
+#ListHeader{
+    color: white;
+    font-weight: bold;
+}
+
+#Item1{
+    color: red;
+}
+
+#Item2{
+    color: blue;
+}
+
+#Item3{
+    color: yellow;
+}
+
+#Item4{
+    color: green;
+}
+
+#Item5{
+    color: orange;
+}
