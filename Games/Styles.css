@@ -71,3 +71,19 @@ hr {
     height: 50px;
     width: 150px;
 }
+
+.numbers {
+    display: inline;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.hlButton {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 100px;
+    width: 300px;
+}
